@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = {
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js','.jsx']
   },
   name: "starter",
   entry: "./script.js",
@@ -19,7 +19,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js?$/,
+        test: /\.jsx?$/, 
         exclude: /node_modules/,
         loader: 'babel-loader'
       },

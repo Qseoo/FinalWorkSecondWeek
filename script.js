@@ -9,6 +9,7 @@ import Picogram from './picogram';
 
 ReactDOM.render(<Picogram />, document.getElementById('picogram'));
 
+
 //React - UI library
 //1) Performance
 //2) JSX / Templating / Reusable components

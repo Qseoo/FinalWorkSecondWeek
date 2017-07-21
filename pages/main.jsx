@@ -4,24 +4,33 @@ import Logo from '../components/logo';
 import Menu from '../components/menu';
 import Like from '../components/like';
 
+const styles = {
+item: {
+    margin: 0,
+    border: 'none',
+    padding: '0 24px',
+    height: '48px',
+    lineHeight: '48px',
+    fontSize: '30px',
+    textDecoration: 'none',
+    color: 'white',
+  }
+}
+
 class Main extends React.Component{
   render(){
     return(
+
       <div className="container">
         <header className="header">
-          <Icon/>
-          <Logo name="Mikelis"/>
+          <Logo/>
         </header>
         <nav className="navigation">
-          <Menu/>
-          <Like/>
         </nav>
         <main className="content">
-          <img className="image homeimage" src="https://source.unsplash.com/random" alt="unsplash" />
-      </main>
-        <footer className="footer">
-          <p>&copy; 2017 Mikelis</p>
-        </footer>
+          <text style={styles.item}>These are the top rated images this week!</text>
+          <Menu/>
+    </main>
       </div>
     );
   }

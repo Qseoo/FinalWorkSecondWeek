@@ -4,10 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>picogram</title>
-    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
-  <body>
+  <body style="background-color:#8DCDC1;">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">If I ever <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Get some</a></li>
+                <li><a href="#">Original</a></li>
+                <li><a href="#">Ideas</a></li>
+              </ul>
+            </li>
+            <li><a href="/#/bestImages">Best Images</a></li>
+            <li><a href="/#/worstImages">Worst Images</a></li>
+            <li><a href="/#/404">Help</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav><h1 style="margin-left:20px; color:white; text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;">Picture central</h1>
     <div id="picogram" class="picogram"></div>
     <script src="./script.js"></script>
+  </div>
+</div>
   </body>
 </html>

@@ -9,7 +9,7 @@ item: {
     height: '48px',
     lineHeight: '48px',
     textDecoration: 'none',
-    color: 'white',
+    color: 'black',
   }
 }
 
